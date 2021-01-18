@@ -70,10 +70,15 @@ const questions = () => {
 
 
 // function to initialize program
-function init() {
-    
-    // function to write README file
-    function writeToFile(fileName, data) {
+const init = async () => {
+    try {
+        // prompt README questions
+        const answers = await questions();
+        const data = generateMarkdown(answers);
+        // write README file
+        await writeFileAsync(fileName, data);
+    } catch (err){
+        console.log(err);
     }
 }
 
