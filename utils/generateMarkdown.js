@@ -6,74 +6,74 @@ const generateMarkdown = (answers) => {
   // markdown format
   return `# ${title}
 
-  <br>
+<br>
 
-  ![License Badge](https://img.shields.io/badge/License-${badgeLicence}-blue)
+![License Badge](https://img.shields.io/badge/License-${badgeLicence}-blue)
 
-  <br>
+<br>
 
-  ## Description
+## Description
 
-  ${description}
+${description}
 
-  ---
+---
 
-  ## Table of Contents
+## Table of Contents
 
-  [Description](#description)
+[Description](#description)
 
-  [Installation](#installation)
+[Installation](#installation)
 
-  [Usage](#usage)
+[Usage](#usage)
 
-  [License](#license)
+[License](#license)
 
-  [Credits](#credits)
+[Credits](#credits)
 
-  [Tests](#tests)
+[Tests](#tests)
 
-  [Questions](#questions)
+[Questions](#questions)
 
-  ---
+---
 
-  ## Installation
+## Installation
 
-  ${installation}
+${installation}
 
-  ---
+---
 
-  ## Usage
+## Usage
 
-  ${usage}
+${usage}
 
-  ---
+---
 
-  ## License
+## License
 
-  This application is covered under the ${license} License.
+This application is covered under the ${license} License.
 
-  ---
+---
 
-  ## Credits
+## Credits
 
-  ${credits}
+${credits}
 
-  ---
+---
 
-  ## Tests
+## Tests
 
-  ${tests}
+${tests}
 
-  ---
+---
 
-  ## Questions
+## Questions
 
-  For any further questions you can contact me through GitHub or email.
+For any further questions you can contact me through GitHub or email.
 
-  *Github: https://github.com/${github}
+*Github: https://github.com/${github}
 
-  *Email: ${email}
-  `;
+*Email: ${email}
+`;
 }
 
 module.exports = generateMarkdown;
