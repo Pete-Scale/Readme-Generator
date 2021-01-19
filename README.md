@@ -1,70 +1,84 @@
-# 
+# README Generator
 
-  <br>
 
-  ![License Badge](https://img.shields.io/badge/License-MIT-blue)
+## Description
 
-  <br>
+A command-line application using node.js that dynamically generates a professional README.md file from a user's input using the Inquirer package.
 
-  ## Description
+---
 
-  
+## Table of Contents
 
-  ---
+[Description](#description)
 
-  ## Table of Contents
+[Installation](#installation)
 
-  [Description](#description)
+[Usage](#usage)
 
-  [Installation](#installation)
+[License](#license)
 
-  [Usage](#usage)
+[Credits](#credits)
 
-  [License](#license)
+[Tests](#tests)
 
-  [Credits](#credits)
+[Questions](#questions)
 
-  [Tests](#tests)
+---
 
-  [Questions](#questions)
+## Installation
 
-  ---
+1. Download node.js 
 
-  ## Installation
+    * https://nodejs.org/en/
 
-  
+2. Open your terminal in the application file folder
+    
+    `./readme-generator`
 
-  ---
+2. Install the node modules for the inquirer package
+    ```
+    npm install
+    ```
 
-  ## Usage
+---
 
-  
+## Usage
 
-  ---
+1. Start the application
+    ```
+    npm start
+    ```
+    or
 
-  ## License
+    ```
+    node index.js
+    ```
+2. Answer the series of question prompts to fill out your README
 
-  This application is covered by the Apache-2.0 License.
+<br>
 
-  ---
+***Note**: Your project title will be the name of your README*
 
-  ## Credits
+**Example:** a project title of "Test 1"  will be named "test-1_README.md"
 
-  
+---
 
-  ---
+## Credits
 
-  ## Tests
 
-  
 
-  ---
+---
 
-  ## Questions
+## Tests
 
-  For any further questions you can contact me through GitHub or email.
 
-  *Github: https://github.com/
 
-  *Email: 
-  
+---
+
+## Questions
+
+For any further questions you can contact me through GitHub or email.
+
+*Github: https://github.com/
+
+*Email: 
