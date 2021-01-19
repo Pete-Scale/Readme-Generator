@@ -43,8 +43,7 @@ const questions = () => {
                 "LGPL-2.1",
                 "LGPL-3.0",
                 "MIT",
-                "MPL-2.0",
-                "N/A"
+                "MPL-2.0"
             ]
         },
         {
