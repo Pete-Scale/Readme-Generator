@@ -54,7 +54,7 @@ const questions = () => {
         },
         {
             type: 'insert',
-            message: "What tests were written for your app and how do you run them? (leave blank if N/A)",
+            message: "What tests were written for your app and how do you run them?",
             name: 'tests'
         },
         {
