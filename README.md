@@ -15,13 +15,7 @@ A command-line application using node.js that dynamically generates a profession
 
 [Usage](#usage)
 
-[License](#license)
-
 [Credits](#credits)
-
-[Tests](#tests)
-
-[Questions](#questions)
 
 ---
 
@@ -65,20 +59,11 @@ A command-line application using node.js that dynamically generates a profession
 
 ## Credits
 
+Special thanks to Josh and the gang for their help!
 
+https://opensource.org/licenses
 
----
+https://shields.io/category/license
 
-## Tests
+https://emojipedia.org/
 
-
-
----
-
-## Questions
-
-For any further questions you can contact me through GitHub or email.
-
-*Github: https://github.com/
-
-*Email: 
