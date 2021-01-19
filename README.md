@@ -55,6 +55,8 @@ A command-line application using node.js that dynamically generates a profession
 
 **Example:** a project title of "Test 1"  will be named "test-1_README.md"
 
+<br>
+
 ---
 
 ## Credits
