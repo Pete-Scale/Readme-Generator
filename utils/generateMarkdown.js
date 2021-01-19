@@ -2,12 +2,13 @@
 const generateMarkdown = (answers) => {
   // deconstructed object to DRY code
   const { title, description, installation, usage, license, credits, tests, github, email } = answers
+  const badgeLicence = license.replace('-', '--');
   // markdown format
   return `# ${title}
 
   <br>
 
-  ![License Badge](https://img.shields.io/badge/License-${license}-blue)
+  ![License Badge](https://img.shields.io/badge/License-${badgeLicence}-blue)
 
   <br>
 
@@ -49,7 +50,7 @@ const generateMarkdown = (answers) => {
 
   ## License
 
-  This application is covered by the ${license} License.
+  This application is covered under the ${license} License.
 
   ---
 

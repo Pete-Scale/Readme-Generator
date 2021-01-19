@@ -2,7 +2,6 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const util = require('util');
 const generateMarkdown = require('./utils/generateMarkdown');
-const writeFileAsync = util.promisify(fs.writeFile);
 
 // array of questions for user
 const questions = () => {
@@ -71,6 +70,8 @@ const questions = () => {
     ]);
 }
 
+const writeFileAsync = util.promisify(fs.writeFile);
+
 
 // function to initialize program
 const init = async () => {
@@ -78,8 +79,10 @@ const init = async () => {
         // prompt README questions
         const answers = await questions();
         const data = generateMarkdown(answers);
+        // dynamic file naming
+        const fileName = `${answers.title.toLowerCase().replace(/ /g, '-')}_README.md`
         // write README file
-        await writeFileAsync('README.md', data);
+        await writeFileAsync(fileName, data);
     } catch (err){
         console.log(err);
     }
