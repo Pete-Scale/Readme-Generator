@@ -61,6 +61,8 @@ A command-line application using node.js that dynamically generates a profession
 
 Special thanks to Josh and the gang for their help!
 
+https://stackoverflow.com/questions/2116558/fastest-method-to-replace-all-instances-of-a-character-in-a-string
+
 https://opensource.org/licenses
 
 https://shields.io/category/license

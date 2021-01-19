@@ -2,7 +2,7 @@
 const generateMarkdown = (answers) => {
   // deconstructed object to DRY code
   const { title, description, installation, usage, license, credits, tests, github, email } = answers
-  const badgeLicence = license.replace('-', '--');
+  const badgeLicence = license.replace(/-/g, '--');
   // markdown format
   return `# ${title}
 

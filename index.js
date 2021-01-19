@@ -83,9 +83,9 @@ const init = async () => {
         const fileName = `${answers.title.toLowerCase().replace(/ /g, '-')}_README.md`
         // write README file
         await writeFileAsync(fileName, data);
-        console.log("✔️ Successfully wrote your README.md file!")
+        console.log("✔️ "+" Successfully wrote your README.md file!")
     } catch (err){
-        console.log("❌ Oh no! Something went wrong with your README!")
+        console.log("❌ "+" Oh no! Something went wrong with your README!")
         console.log(err);
     }
 }
