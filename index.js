@@ -33,15 +33,18 @@ const questions = () => {
             message: "What license did you use?",
             name: 'license',
             choices: [
-                "Apache License 2.0", 
-                "BSD 3-Clause 'New' or 'Revised' license",
-                "BSD 2-Clause 'Simplified' or 'FreeBSD' license",
-                "Common Development and Distribution License",
-                "Eclipse Public License version 2.0",
-                "GNU General Public License (GPL)",
-                "GNU Library or 'Lesser' General Public License (LGPL)",
-                "MIT license",
-                "Mozilla Public License 2.0",
+                "Apache-2.0", 
+                "BSD-3-Clause",
+                "BSD-2-Clause",
+                "CDDL-1.0",
+                "EPL-2.0",
+                "GPL-2.0",
+                "GPL-3.0",
+                "LGPL-2.0",
+                "LGPL-2.1",
+                "LGPL-3.0",
+                "MIT",
+                "MPL-2.0",
                 "N/A"
             ]
         },
@@ -76,7 +79,7 @@ const init = async () => {
         const answers = await questions();
         const data = generateMarkdown(answers);
         // write README file
-        await writeFileAsync(fileName, data);
+        await writeFileAsync('README.md', data);
     } catch (err){
         console.log(err);
     }
