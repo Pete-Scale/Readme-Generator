@@ -1,5 +1,6 @@
 # README Generator
 
+![README Generator Image](./assets/readme-generator.png)
 
 ## Description
 
