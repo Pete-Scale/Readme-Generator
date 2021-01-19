@@ -1,11 +1,13 @@
 // function to generate markdown for README
 const generateMarkdown = (answers) => {
+  // deconstructed object to DRY code
   const { title, description, installation, usage, license, credits, tests, github, email } = answers
+  // markdown format
   return `# ${title}
 
   <br>
 
-  ![License Badge](https://img.shields.io/badge/license-${license}-blue)
+  ![License Badge](https://img.shields.io/badge/License-${license}-blue)
 
   <br>
 
