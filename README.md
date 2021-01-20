@@ -4,9 +4,11 @@
 
 ## Link
 
-Link to a video demonstration of how to use the application.
+A video demonstration of how to use the application.
 
 https://drive.google.com/file/d/1sWUFfq0IpVaYJGFWgRatr0M7apI3S9lo/view?usp=sharing
+
+---
 
 
 ## Description
