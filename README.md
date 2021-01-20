@@ -2,6 +2,13 @@
 
 ![README Generator Image](./assets/readme-generator.png)
 
+## Link
+
+Link to a video demonstration of how to use the application.
+
+https://drive.google.com/file/d/1sWUFfq0IpVaYJGFWgRatr0M7apI3S9lo/view?usp=sharing
+
+
 ## Description
 
 A command-line application using node.js that dynamically generates a professional README.md file from a user's input using the Inquirer package.
